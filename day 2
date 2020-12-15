@@ -1,0 +1,46 @@
+# Javascript-week-3
+
+var myString = "Asia Developer Academy"
+
+// how many chracters in a string
+console.log(myString.length)
+
+// how to change all to upper and lower case
+
+console.log(myString.toUpperCase());
+console.log(myString.toLowerCase());
+
+// use to specify the position of the string
+console.log(myString.charAt(6));
+
+// First time is has "ev" in the string the number comes out
+console.log(myString.indexOf('ev'));
+
+// Counts the last part of the string from the back
+console.log(myString.lastIndexOf('e'));
+
+// use a part of the string
+console.log(myString.substring(5,14));
+
+//splits word by word to come an array. the example is seperated by space
+
+console.log(myString.split(" "))
+
+var number = 12.3456
+// 3 numbers from the left
+console.log(number.toPrecision(3))
+// 3 numbers after the decimal
+console.log(number.toFixed(3))
+
+// round up always
+console.log(Math.ceil(number))
+// round down always
+console.log(Math.floor(number))
+//round up or down according to the decimal
+console.log(Math.round(number))
+
+//math.random will generate a random number between 0 - 1
+
+console.log(Math.random())
+/
+console.log(Math.ceil(Math.random()* 100));
